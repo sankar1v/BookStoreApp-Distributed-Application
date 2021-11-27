@@ -1,4 +1,4 @@
-FROM grafana/grafana
+FROM grafana/grafana:8.3.0-beta2
 
 # Add in the configuration file from the local directory.
 ADD datasource.yml /etc/grafana/provisioning/datasources/datasource.yml
