@@ -1,4 +1,4 @@
-FROM grafana/grafana
+FROM grafana/grafana:11.1.1-ubuntu
 
 # Add in the configuration file from the local directory.
 ADD datasource.yml /etc/grafana/provisioning/datasources/datasource.yml
